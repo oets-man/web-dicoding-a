@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- div agar favicon mudah di kelompokkan -->
+    <div>
+      <link
+        rel="apple-touch-icon"
+        sizes="57x57"
+        href="assets/favicon/apple-icon-57x57.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="60x60"
+        href="assets/favicon/apple-icon-60x60.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="72x72"
+        href="assets/favicon/apple-icon-72x72.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="76x76"
+        href="assets/favicon/apple-icon-76x76.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="114x114"
+        href="assets/favicon/apple-icon-114x114.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="120x120"
+        href="assets/favicon/apple-icon-120x120.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="144x144"
+        href="assets/favicon/apple-icon-144x144.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="152x152"
+        href="assets/favicon/apple-icon-152x152.png"
+      />
+      <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/favicon/apple-icon-180x180.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="192x192"
+        href="assets/favicon/android-icon-192x192.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="assets/favicon/favicon-32x32.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="96x96"
+        href="assets/favicon/favicon-96x96.png"
+      />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="assets/favicon/favicon-16x16.png"
+      />
+      <link rel="manifest" href="assets/favicon/manifest.json" />
+      <meta name="msapplication-TileColor" content="#ffffff" />
+      <meta
+        name="msapplication-TileImage"
+        content="assets/favicon/ms-icon-144x144.png"
+      />
+      <meta name="theme-color" content="#ffffff" />
+    </div>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/calc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-container-column card">
+      <div class="display"><h1 id="display-number">0</h1></div>
+      <div class="flex-container-row">
+        <div class="button">7</div>
+        <div class="button">8</div>
+        <div class="button">9</div>
+        <div class="button negative">+/-</div>
+      </div>
+      <div class="flex-container-row">
+        <div class="button">4</div>
+        <div class="button">5</div>
+        <div class="button">6</div>
+        <div class="button operator">-</div>
+      </div>
+      <div class="flex-container-row">
+        <div class="button">1</div>
+        <div class="button">2</div>
+        <div class="button">3</div>
+        <div class="button operator">+</div>
+      </div>
+      <div class="flex-container-row">
+        <div class="button clear">CE</div>
+        <div class="button">0</div>
+        <div class="button equals double">=</div>
+      </div>
+    </div>
+
+    <div class="history card">
+      <h2>Riwayat Perhitungan</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Angka Pertama</th>
+            <th>Operator</th>
+            <th>Angka Kedua</th>
+            <th>Hasil</th>
+          </tr>
+        </thead>
+        <tbody id="historyList"></tbody>
+      </table>
+    </div>
+    <script src="assets/scripts/calc.js"></script>
+    <script src="assets/scripts/storage.js"></script>
+  </body>
+</html>
