@@ -15,11 +15,13 @@ body {
   background-repeat: repeat;
 }
 
-.jumbotron img {
-  width: 100%;
-  max-height: 30vh;
-  object-fit: cover;
+.jumbotron {
+  padding: 50px 5px;
+  background-color: darkkhaki;
+  margin: 0 auto;
+  text-align: center;
 }
+
 #menu {
   display: none;
 }
@@ -49,6 +51,7 @@ nav {
   top: 0;
   padding: 20px;
 }
+
 header {
   display: inline;
 }
@@ -88,6 +91,7 @@ h3,
   /* margin-top: 20px; */
   margin-bottom: 20px;
   background-color: ivory;
+  border-radius: 5px;
 }
 
 article {
