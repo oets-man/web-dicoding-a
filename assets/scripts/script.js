@@ -4,13 +4,13 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     document.querySelector(this.getAttribute("href")).scrollIntoView({
       behavior: "smooth",
     });
-    mantul();
+    scroll();
   });
 });
 
-function mantul() {
+function scroll() {
   setTimeout(function () {
-    var y = window.pageYOffset || document.documentElement.scrollTop;
+    const y = window.pageYOffset || document.documentElement.scrollTop;
     if (window.innerWidth < 800) {
       window.scrollTo({ top: y - 400, behavior: "smooth" });
     } else {
