@@ -12,9 +12,9 @@ function scroll() {
   setTimeout(function () {
     const y = window.pageYOffset || document.documentElement.scrollTop;
     if (window.innerWidth < 800) {
-      window.scrollTo({ top: y - 400, behavior: "smooth" });
-    } else {
       window.scrollTo({ top: y - 200, behavior: "smooth" });
+    } else {
+      window.scrollTo({ top: y - 100, behavior: "smooth" });
     }
   }, 500);
 }

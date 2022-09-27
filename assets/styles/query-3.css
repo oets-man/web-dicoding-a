@@ -1,0 +1,57 @@
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .list-menu {
+    display: none;
+    margin-right: 20px;
+    border: 0;
+  }
+  #menu {
+    display: block;
+  }
+  main {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .content {
+    flex-basis: 70%;
+  }
+  aside {
+    flex-basis: 30%;
+    padding-left: 0px;
+  }
+  #about {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #about-figure {
+    flex-basis: 100%;
+  }
+
+  article img {
+    float: left;
+    max-width: 60%;
+    margin-right: 20px;
+  }
+
+  /* navigasi */
+  nav {
+    position: sticky;
+    width: max-content;
+    float: right;
+    top: 40vh;
+    right: 40px;
+  }
+  #content,
+  aside {
+    width: 97vw;
+  }
+  nav ul {
+    line-height: 2em;
+  }
+}
