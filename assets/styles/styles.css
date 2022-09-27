@@ -30,6 +30,7 @@ body {
   color: lightyellow;
   margin: 0;
   font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 1.75em;
 }
 #terjemah {
   font-style: italic;
@@ -154,7 +155,7 @@ aside figure {
   background-image: url(../images/pattern-content.webp);
 }
 
-footer {
+.container> footer {
   text-align: center;
   font-size: 0.75em;
   padding: 10px;
