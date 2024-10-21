@@ -1,61 +1,66 @@
-@media screen and (max-width: 600px) {
-  body {
-    width: 100%;
-    margin: auto;
-  }
-  .list-menu {
-    display: none;
-    margin-right: 20px;
-    border: 0;
-  }
-  #menu {
-    display: block;
-  }
-  main {
-    padding: 10px 0px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px;
-  }
-  .content {
-    flex-basis: 70%;
-  }
-  aside {
-    flex-basis: 30%;
-    padding-left: 0px;
-  }
-  #about {
-    display: flex;
-    flex-direction: column;
-  }
-  article img {
-    float: none;
-    max-width: 100%;
-    margin: auto;
-  }
-  #hadis {
-    font-size: 1.5em;
-  }
-  #terjemah {
-    font-size: 0.75em;
-  }
-  #judul {
-    font-size: 1.5em;
-  }
+@media screen and (max-width: 500px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    .list-menu {
+        display: none;
+        margin-right: 20px;
+        border: 0;
+    }
+    #menu {
+        display: block;
+    }
+    main {
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 10px;
+    }
+    .content {
+        flex-basis: 70%;
+    }
+    aside {
+        flex-basis: 30%;
+        padding-left: 0px;
+    }
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+    article img {
+        float: none;
+        max-width: 100%;
+        margin: auto;
+    }
+    #hadis {
+        font-size: 1.5em;
+    }
+    #terjemah {
+        font-size: 0.75em;
+    }
+    #judul {
+        font-size: 1.5em;
+    }
 
-  /* navigasi */
-  nav {
-    position: sticky;
-    width: max-content;
-    float: right;
-    top: 40px;
-    right: 40px;
-  }
-  #content,
-  aside {
-    width: 96vw;
-  }
-  nav ul {
-    line-height: 2em;
-  }
+    /* navigasi */
+    nav {
+        position: sticky;
+        width: max-content;
+        float: right;
+        top: 30px;
+        right: 30px;
+        background-color: #deb887 !important;
+        font-size: 1.5em !important;
+        padding: 5px 10px !important;
+        margin: 0 !important;
+        margin-top: 30px !important;
+    }
+    #content,
+    aside {
+        width: 96vw;
+    }
+    nav ul {
+        line-height: 2em;
+    }
 }
